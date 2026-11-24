@@ -19,11 +19,17 @@
     welcome: "Welcome to Waqas Collection",
     currency: "Rs.",
     categories: [
-      // image: "" uses a generated placeholder. Replace with e.g. "assets/cat-fashion.jpg"
-      { name: "Fashion", image: "" },
-      { name: "Bedding", image: "" },
-      { name: "Home Textiles", image: "" },
-      { name: "Lifestyle", image: "" },
+      {
+        name: "Fashion",
+        image:
+          "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/fashion-category-hfFBDap9k5rrazgPox6kl0nLvg9Lba.jpg",
+      },
+      { name: "Bedding", image: "assets/products/3d-panel-blanket.jpg" },
+      {
+        name: "Home Textiles",
+        image: "assets/products/bin-saeed-airjet-khaddar.jpg",
+      },
+      { name: "Lifestyle", image: "assets/products/smart-electric-kettle.jpg" },
     ],
     policies: {
       "Shipping Policy":
@@ -101,13 +107,13 @@
       featured: true,
       stock: 5,
       image:
-        "https://images.unsplash.com/photo-1583391733956-6c78276477e1?auto=format&fit=crop&w=900&q=80",
+        "assets/products/airjet-breeze.jpeg",
       description:
         "Full-procedure Airjet Dhanak with embroidered shirt, sleeves, back, dyed trouser and embroidered Dhanak shawl.",
     },
     {
       id: 5,
-      name: "Airjet Dhanak Suit — ELAF 1288",
+      name: "Airjet Dhanak Suit — ELAF 1388",
       category: "Fashion",
       price: 4300,
       salePrice: null,
@@ -115,10 +121,9 @@
       added: "2026-11-24",
       featured: true,
       stock: 5,
-      image:
-        "https://images.unsplash.com/photo-1597983073493-88cd35cf93b0?auto=format&fit=crop&w=900&q=80",
+      image: "assets/products/elaf-airjet-dhanak.jpg",
       description:
-        "Full-heavy-embroidered Airjet Dhanak shirt with dyed trouser and a digital-print wool shawl.",
+        "Premium Airjet Dhanak three-piece suit with embroidered shirt and a digital-print wool shawl.",
     },
     {
       id: 6,
@@ -145,25 +150,23 @@
       added: "2026-11-24",
       featured: true,
       stock: 5,
-      image:
-        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=900&q=80",
+      image: "assets/products/aneelas-airjet-dhanak.jpg",
       description:
-        "Premium Airjet Dhanak with embroidered shirt, sleeves, trouser and matching embroidered Dhanak shawl.",
+        "Premium Airjet Dhanak with heavy front and sleeve embroidery, embroidered back and trouser, and a matching embroidered Dhanak shawl.",
     },
     {
       id: 8,
-      name: "Digital Print Airjet Khadar 3-Piece",
+      name: "Digital Print Airjet Slub Khaddar 3-Piece",
       category: "Fashion",
       price: 3600,
       salePrice: null,
-      badge: "7.25m Cutting",
+      badge: "3-Piece",
       added: "2026-11-24",
       featured: true,
       stock: 6,
-      image:
-        "https://images.unsplash.com/photo-1585487000160-6ebcfbdd7183?auto=format&fit=crop&w=900&q=80",
+      image: "assets/products/bin-saeed-airjet-khaddar.jpg",
       description:
-        "Digital-printed Airjet Khadar shirt, dupatta and trouser in fine-quality fabric. Includes 7.25 metres suit cutting.",
+        "Digital-print Airjet Slub Khaddar set with a printed shirt, matching trouser and dupatta.",
     },
     {
       id: 9,
@@ -182,18 +185,17 @@
     },
     {
       id: 10,
-      name: "Irani 4-Border Embossed Blanket",
+      name: "3D Panel Blanket",
       category: "Bedding",
       price: 3400,
       salePrice: null,
       badge: "Winter Pick",
       added: "2026-11-24",
-      featured: false,
+      featured: true,
       stock: 5,
-      image:
-        "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80",
+      image: "assets/products/3d-panel-blanket.jpg",
       description:
-        "Double-bed 3D panel embossed blanket with an elegant four-border design. Single pillow included.",
+        "Double-bed blanket with a plush embossed 3D floral panel design.",
     },
     {
       id: 11,
@@ -227,18 +229,87 @@
     },
     {
       id: 13,
-      name: "Smart Electric Hot Water Kettle",
+      name: "Smart Electric Kettle",
       category: "Lifestyle",
       price: 2250,
       salePrice: null,
       badge: "New",
       added: "2026-11-24",
-      featured: false,
+      featured: true,
       stock: 10,
-      image:
-        "https://images.unsplash.com/photo-1594213114663-d94db9b171a5?auto=format&fit=crop&w=900&q=80",
+      image: "assets/products/smart-electric-kettle.jpg",
       description:
-        "Practical electric kettle to boil water quickly and easily.",
+        "Stainless-steel electric kettle with a 2-year warranty and easy-pour handle.",
+    },
+    {
+      id: 14,
+      name: "3-Piece Palachi Bedsheet Set",
+      category: "Bedding",
+      price: 3900,
+      salePrice: null,
+      badge: "New",
+      added: "2026-11-24T23:59:00",
+      featured: true,
+      stock: 8,
+      image: "assets/products/palachi-bedsheet.jpg",
+      description:
+        "King-size laced bedsheet (95 × 95 in) with two matching laced pillow covers and elegant gift-bag packaging.",
+    },
+    {
+      id: 15,
+      name: "Pure Cotton 3-Piece Bedsheet",
+      category: "Bedding",
+      price: 2650,
+      salePrice: null,
+      badge: "Pure Cotton",
+      added: "2026-11-24T23:59:00",
+      featured: true,
+      stock: 8,
+      image: "assets/products/pure-cotton-bedsheet.jpg",
+      description:
+        "Soft 100% cotton set with a 98 × 98 in king bedsheet and two 19 × 29 in pillow covers.",
+    },
+    {
+      id: 16,
+      name: "Ultrasonic Sofa Cover — 5 Seater",
+      category: "Home Textiles",
+      price: 3800,
+      salePrice: null,
+      badge: "New",
+      added: "2026-11-24T23:59:00",
+      featured: true,
+      stock: 8,
+      image: "assets/products/ultrasonic-sofa-cover.jpg",
+      description:
+        "Soft layered microfiber sofa cover with a polyester middle layer and non-woven backing. Fits a 3+1+1, five-seat arrangement.",
+    },
+    {
+      id: 17,
+      name: "Ultrasonic Sofa Cover — 6 Seater",
+      category: "Home Textiles",
+      price: 4100,
+      salePrice: null,
+      badge: "New",
+      added: "2026-11-24T23:59:00",
+      featured: true,
+      stock: 8,
+      image: "assets/products/ultrasonic-sofa-cover.jpg",
+      description:
+        "Soft layered microfiber sofa cover with a polyester middle layer and non-woven backing. Fits a 3+2+1, six-seat arrangement.",
+    },
+    {
+      id: 18,
+      name: "Ultrasonic Sofa Cover — 7 Seater",
+      category: "Home Textiles",
+      price: 4500,
+      salePrice: null,
+      badge: "New",
+      added: "2026-11-24T23:59:00",
+      featured: true,
+      stock: 8,
+      image: "assets/products/ultrasonic-sofa-cover.jpg",
+      description:
+        "Soft layered microfiber sofa cover with a polyester middle layer and non-woven backing. Fits a 3+2+1+1, seven-seat arrangement.",
     },
   ];
 
